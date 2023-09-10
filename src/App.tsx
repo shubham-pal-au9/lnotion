@@ -9,7 +9,7 @@ import {
   useNavigate,
 } from "react-router-dom";
 import Login from "../src/components/home/login";
-import Dashboard from './components/dashboard';
+import Dashboard from './components/Dashboard/dashboard';
 
 function App() {
   return (

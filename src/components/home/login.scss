@@ -10,20 +10,30 @@
     .subLogin{
         display: flex;
         flex-direction: column;
-        border: 1px solid;
+        border: 2px solid rgba(0, 0, 255, 0.188);
         border-radius: 5px;
-        padding: 50px 20px 80px 20px;
+        height: 35rem;
+        width: 25rem;
         position: absolute;
         top:20%;
         background: rgba(49, 36, 188, 0.301);
+        box-shadow: 0px 5px 10px 0px #3f3ae7;
+        &:hover{
+            border: 2px solid rgba(0, 0, 255, 0.448);
+        }
         .loginName{
             text-align: center;
-            font-size: 20px;
+            font-size: 30px;
             margin-bottom: 20px;
+            margin-top: 120px;
         }
         .loginTxt{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             .username{
                 padding: 5px;
+                margin: 10px 0px 10px 0px;
 
                 input{
                     height: 35px;
@@ -50,19 +60,19 @@
             }
         }
 
-        .mainLogin{
+        .loginBtn{
             display: flex;
             justify-content: center;
-            margin-top: 10px;
+            margin-top: 30px;
             #loginBtn{
-                width: 50%;
+                width: 30%;
                 cursor: pointer;
                 height: 35px;
                 border-radius: 5px;
-                background-color: rgba(1, 6, 7, 0.512);
+                background-color: rgba(9, 102, 121, 0.512);
 
                 &:hover{
-                    background-color: rgba(0, 0, 255, 0.575);
+                    background-color: rgba(9, 102, 121, 0.674)
                 }
             }
         }
